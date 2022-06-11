@@ -49,11 +49,12 @@ header div {
 
 header {
     display: grid;
-    grid-template-columns: auto 1fr auto;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5%;
+    padding-left: 26%;
+    
+   
     background-color: salmon;
 }
 header img {
